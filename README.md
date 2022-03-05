@@ -9,9 +9,9 @@ It's basically going to be a [SkipTheDishes](https://play.google.com/store/apps/
   - [x] Log in
   - [x] Log out
   - [ ] Create account
-- [ ] Select a resturant
-  - [ ] View resturant list
+- [ ] Select a restaurant
+  - [ ] View restaurant list
 - [ ] Add items to cart
-  - [ ] View menus for each resturant
+  - [ ] View menus for each restaurant
 - [ ] Simulated checkout
 

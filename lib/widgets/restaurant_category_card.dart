@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import '../models/resturant_categories.dart';
 
-class ResturantCategoryCard extends StatelessWidget {
-  const ResturantCategoryCard({Key? key, required this.category}) : super(key: key);
+class RestaurantCategoryCard extends StatelessWidget {
+  const RestaurantCategoryCard({Key? key, required this.category}) : super(key: key);
 
-  final ResturantCategory category;
+  final RestaurantCategory category;
 
   @override
   Widget build(BuildContext context) {
@@ -21,12 +21,18 @@ class ResturantCategoryCard extends StatelessWidget {
             ),
           )
         ),
-        Transform.scale(
-          scale: 0.8,
-          child: Chip(
-            label: Text(category.label),
+        Padding(
+          padding: const EdgeInsets.only(
+            bottom: 8,
           ),
-        ),
+          child: Text(
+            category.label,
+            style: const TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.w600
+            ),
+          ),
+        )
       ],
       
     );

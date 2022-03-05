@@ -80,10 +80,7 @@ class _LoginFormState extends State<LoginForm> {
           ),
           ElevatedButton(
             onPressed: () => tryLogin(),
-            child: isLoading ? CircularProgressIndicator(
-              color: Colors.white,
-              
-            ) : const Text("Sign In")
+            child: isLoading ? const CircularProgressIndicator() : const Text("Sign In")
           ),
           Text(errorMessage)
         ],

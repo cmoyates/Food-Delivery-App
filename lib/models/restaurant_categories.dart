@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-class ResturantCategory {
+class RestaurantCategory {
   final String label, image;
 
-  ResturantCategory({required this.label, required this.image});
+  RestaurantCategory({required this.label, required this.image});
 }
 
 const List<String> categories = [
@@ -17,36 +17,36 @@ const List<String> categories = [
   "Pizza",
 ];
 
-List<ResturantCategory> resturantCategories = [
-  ResturantCategory(
+List<RestaurantCategory> restaurantCategories = [
+  RestaurantCategory(
     label: "Fast Food", 
     image: "assets/images/fast_food.jpg"
   ),
-  ResturantCategory(
+  RestaurantCategory(
     label: "Fine Dining", 
     image: "assets/images/fine_dining.jpg"
   ),
-  ResturantCategory(
+  RestaurantCategory(
     label: "Cafe", 
     image: "assets/images/cafe.jpg"
   ),
-  ResturantCategory(
+  RestaurantCategory(
     label: "Buffet", 
     image: "assets/images/buffet.jpg"
   ),
-  ResturantCategory(
+  RestaurantCategory(
     label: "Mexican", 
     image: "assets/images/mexican_food.jpg"
   ),
-  ResturantCategory(
+  RestaurantCategory(
     label: "Chinese", 
     image: "assets/images/chinese_food.jpg"
   ),
-  ResturantCategory(
+  RestaurantCategory(
     label: "Indian", 
     image: "assets/images/indian_food.jpg"
   ),
-  ResturantCategory(
+  RestaurantCategory(
     label: "Pizza", 
     image: "assets/images/pizza.jpg"
   ),

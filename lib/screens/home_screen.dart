@@ -15,7 +15,6 @@ class HomeScreen extends StatelessWidget {
       ),
       drawer: SafeArea(
         child: Drawer(
-          backgroundColor: Colors.orange,
           child: Column(
             children: [
               ElevatedButton(

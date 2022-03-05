@@ -34,8 +34,9 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Food Delivery App',
         theme: ThemeData(
-          primarySwatch: Colors.orange,
-          scaffoldBackgroundColor: Colors.white
+          colorSchemeSeed: Colors.red,
+          brightness: Brightness.dark,
+          useMaterial3: true
         ),
         home: const AuthenticationWrapper()
       ),

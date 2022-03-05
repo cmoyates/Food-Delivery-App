@@ -16,16 +16,21 @@ class _BottomNavbarState extends State<BottomNavbar> {
     return NavigationBarTheme(
       data: NavigationBarThemeData(
         labelTextStyle: MaterialStateProperty.all(
-          const TextStyle(
+          TextStyle(
             fontSize: 14,
-            fontWeight: FontWeight.w500
+            fontWeight: FontWeight.w500,
+            color: Theme.of(context).colorScheme.onPrimary
           )
         ),
-        indicatorColor: const Color.fromARGB(255, 247, 204, 139)
+        backgroundColor: Theme.of(context).colorScheme.primary,
+        iconTheme: MaterialStateProperty.all(
+          IconThemeData(
+            color: Theme.of(context).colorScheme.onPrimary
+          )
+        )
       ),
       child: NavigationBar(
         height: 60,
-        backgroundColor: Colors.orange,
         selectedIndex: selectedIndex,
         onDestinationSelected: (index) => setState(() => selectedIndex = index),
         destinations: const [
