@@ -1,8 +1,7 @@
 # Food Delivery App
 
-A project to teach myself app development with Flutter and Firebase.
-
-It's basically going to be a Skip the Dishes clone.
+A project to teach myself app development with [Flutter](https://flutter.dev/) and [Firebase](https://firebase.google.com/).  
+It's basically going to be a [SkipTheDishes](https://play.google.com/store/apps/details?id=com.ncconsulting.skipthedishes_android&hl=en_CA&gl=US) clone.
 
 ## MVP
 
